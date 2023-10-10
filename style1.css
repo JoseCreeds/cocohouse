@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+   
+}
+body>.contain{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    overflow-x:hidden;
+}
+body div>.contain{
+    margin-top: 50px;
+
+}
+form{
+    
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgba(133, 155, 133, 0.253);
+    opacity: 1;
+}
+h1{
+    text-align: center;
+    margin: 0px auto;
+}
+.number{
+    font-size: 17px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    color: white;
+    background-color:rgba(236, 122, 230, 0.521);
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 10px;
+}
+fieldset{
+    border: none;
+    margin-bottom: 10px;
+
+}
+legend{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+label.light{
+    display: inline;
+}
+input:not([type='submit']), textarea, select{
+    border: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: beige;
+
+}
+input:not([type='submit']):focus {
+    border: 1 solid #c80a48;
+}
+
+input[type='checkbox'], input[type='radio']{
+    margin: 10px;
+}
+
+input[type='submit']{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #c80a48;
+    border: 1 solid transparent;
+    border-color: rgba(255, 255, 255, 0.486);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
+
+}
+input[type='submit']:hover{
+    
+    color: #c80a48;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-color: #c80a4963;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
+
+    transition: 0.3s;
+
+}
+
+/************************** Connexion ***********************/
+container-login{
+    max-width: 600px;
+    margin: 10px auto;
+}
+form.connexion{
+    
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgba(133, 155, 133, 0.452);
+}
+
+p {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+/* @media(min-width: 792px ) and (min-height: 522px){
+    input:not([type='checkbox'], [type='radio'], [type='submit'], [class="email-submit"]){
+        width: 150%;
+    }
+} */
+/* ************************************* */
+table-container{
+    min-width: 300px;
+}
